@@ -1,0 +1,54 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Build and coverage files
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Optional large/archive files
+# Uncomment these if you do not want to upload large raw files:
+# *.zip
+# *.pbix
